@@ -1,4 +1,4 @@
-# Frontend Studies
+# Front End Studies
 
 Este repositório contém meus estudos e experimentos com **HTML**, **CSS** e **JavaScript**.  
 Aqui organizo pequenos arquivos e projetos de aprendizado, com foco em **prática e evolução no desenvolvimento frontend**, sempre pensando na aplicação real junto ao backend.
