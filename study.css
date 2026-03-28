@@ -1,0 +1,89 @@
+/*
+============
+CSS COMANDS
+============
+
+
+display: flex = inicia o flexbox que pega todos filhos diretos da tag em que foi chamado
+flex-direction = organiza a direção dos itens
+gap = tamanho de espaçamento entre os itens
+
+
+rem = tamanho adaptado a tela
+px = tamanho geral em pixels
+
+background-color = cor do fundo
+color = cor
+
+
+font-size = tamanho da letra
+width: 35% = tamanho do item
+max-width = limita para item não ficar gigante
+
+
+padding = espaçamento interno de um elemento, entre o conteúdo e a borda invísivel
+margin = espaço que separa um elemento de outros
+
+
+margin: 0 auto = alinha item ao centro
+margin-bottom = empurra o elemento de baixo
+margin-top  = empurra o próprio elemento para baixo
+
+
+text-align: center = alinha ao centro
+text-align: left = alinha na esquerda
+text-align: right = alinha na direita
+
+
+Faz o ponto grudar na escrita pra centralizar a lista
+ul ou ol {
+    list-style-position: inside; 
+}
+
+
+border = borda
+border-collapse: collapse = gruda as bordas (tabela)
+
+
+
+width: 30rem;   diminui a largura
+height: auto;   mantém a proporção
+
+
+===========================
+FORMA 1 DE USAR (IN LINE):
+===========================
+
+<h1 style = "color: orangered; font-size: 60px">Quiz para programadores</h1>
+
+===============================
+FORMA 2 DE USAR (CSS INTERNO):
+===============================
+
+<head>
+    <title>Quiz para programadores</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <style>
+        h1 {
+            color: orangered;
+            font-size: 60px;
+        }
+        h2{
+            color: olivedrab;
+            font-size: 30px;
+        }
+        p{
+            color: orangered;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+
+=========================================
+FORMA 3 DE USAR (CSS EM ARQUIVO STYLE):
+=========================================
+*/
